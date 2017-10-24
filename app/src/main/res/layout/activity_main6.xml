@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.felipe.signozodiacales.Main6Activity"
+    android:orientation="vertical"
+    android:background="@drawable/fondossignos">
+
+
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tauro"
+        android:textSize="25dp"/>
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="272dp"
+        android:layout_height="103dp"
+        app:srcCompat="@drawable/tauro" />
+</LinearLayout>
+<ScrollView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Elemento: Tierra\n
+Cualidad: Fijo\n
+Color: Azul, Rosa, Verde\n
+Día: Viernes, Lunes\n
+Regente: Venus\n
+Mayor compatibilidad con: Virgo, Capricornio\n
+Mejor pareja para Matrimonio y Asociaciones: Escorpio\n
+Números de la Suerte: 2, 4, 6, 11, 20, 29, 37, 47, 56\n
+Rango de Nacimiento: Abril 20 - Mayo 20\n
+
+Tauro (Abril 20 - Mayo 20)\n" />
+</ScrollView>
+</LinearLayout>

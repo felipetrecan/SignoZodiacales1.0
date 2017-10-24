@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.felipe.signozodiacales.Main12Activity"
+    android:orientation="vertical"
+    android:background="@drawable/fondossignos">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Escorpion"
+        android:textSize="25dp"/>
+
+    <ImageView
+        android:id="@+id/imageView10"
+        android:layout_width="166dp"
+        android:layout_height="183dp"
+        app:srcCompat="@drawable/escorpion" />
+
+    <ScrollView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Elemento: Agua\n
+Cualidad: Fijo\n
+Color: Escarlata, Rojo\n
+Día: Martes\n
+Regente: Plutón\n
+Mayor compatibilidad con: Cáncer, Piscis\n
+Mejor pareja para Matrimonio y Asociaciones: Tauro\n
+Números de la Suerte: 9, 18, 27, 36, 45, 54, 63, 72, 81, 90\n
+Rango de Nacimiento: Octubre 23 - Noviembre 21\n
+
+Escorpio (Octubre 23 - Noviembre 21)\n" />
+</ScrollView>
+</LinearLayout>

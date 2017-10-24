@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.felipe.signozodiacales.Main10Activity"
+    android:orientation="vertical"
+    android:weightSum="1"
+    android:background="@drawable/fondossignos">
+
+    <ImageView
+        android:id="@+id/imageView8"
+        android:layout_width="164dp"
+        android:layout_height="169dp"
+        app:srcCompat="@drawable/virgo" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Virgo"
+        android:textSize="25dp"
+         />
+<ScrollView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:text="Elemento: Tierra\n
+Cualidad: Mutable\n
+Color: Blanco, Amarillo, Beige, Verde Bosque\n
+Día: Miércoles\n
+Regente: Mercurio\n
+Mayor compatibilidad con: Tauro, Capricornio\n
+Mejor pareja para Matrimonio y Asociaciones: Piscis\n
+Números de la Suerte: 5, 14, 23, 32, 41, 50\n
+Rango de Nacimiento: 23 Agosto a - 22 Septiembre\n
+
+Virgo (23 Agosto a - 22 Septiembre)\n"/>
+</ScrollView>
+
+</LinearLayout>

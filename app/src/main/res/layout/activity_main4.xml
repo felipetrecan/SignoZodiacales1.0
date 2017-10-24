@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.felipe.signozodiacales.Main4Activity"
+    android:orientation="vertical"
+    android:background="@drawable/fondossignos">
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Piscis"
+        android:textSize="25dp"/>
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="294dp"
+        android:layout_height="97dp"
+        app:srcCompat="@drawable/piscis" />
+</LinearLayout>
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Elemento: Agua\n
+Cualidad: Mutable\n
+Color: Mauve, Lila, Púrpura, Violeta, Verde mar\n
+Día: Jueves, Lunes\n
+Regente: Neptuno\n
+Mayor compatibilidad con: Cáncer, Escorpio\n
+Mejor pareja para Matrimonio y Asociaciones: Virgo\n
+Números de la Suerte: 3, 7, 12, 16, 21, 25, 30, 34, 43, 52\n
+Rango de Nacimiento: Febrero 19 - Marzo 20\n
+
+Pisces (Febrero 19 - Marzo 20)\n "/>
+</ScrollView>
+</LinearLayout>

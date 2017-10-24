@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.felipe.signozodiacales.Main9Activity"
+    android:orientation="vertical"
+    android:background="@drawable/fondossignos">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Leo"
+        android:textSize="25dp"/>
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="175dp"
+        android:layout_height="172dp"
+        app:srcCompat="@drawable/leo" />
+
+    <ScrollView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Elemento: Fuego\n
+Cualidad: Fijo\n
+Color: Oro, Naranja, Blanco, Rojo\n
+Día: Domingo\n
+Regente: Sol\n
+Mayor compatibilidad con: Aries, Sagitario\n
+Mejor pareja para Matrimonio y Asociaciones: Acuario\n
+Números de la Suerte: 1, 4, 10, 13, 19, 22\n
+Rango de Nacimiento: Julio 23 - Agosto 22\n
+
+Leo (Julio 23 - Agosto 22)\n" />
+</ScrollView>
+</LinearLayout>

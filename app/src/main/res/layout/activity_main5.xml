@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.felipe.signozodiacales.Main5Activity"
+    android:orientation="vertical"
+    android:background="@drawable/fondossignos">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Aries"
+        android:textSize="25dp"/>
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="164dp"
+        android:layout_height="143dp"
+        app:srcCompat="@drawable/aries" />
+
+    <ScrollView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Elemento: Fuego\n
+Cualidad: Radical\n
+Color: Rojo\n
+Día: Martes\n
+Regente: Marte\n
+Mayor compatibilidad con: Sagitario, Leo\n
+Mejor pareja para Matrimonio y Asociaciones: Libra\n
+Números de la Suerte: 1, 9\n
+Rango de Nacimiento: Marzo 21 – Abril 19\n
+
+Aries (Marzo 21 – Abril 19)\n" />
+</ScrollView></LinearLayout>

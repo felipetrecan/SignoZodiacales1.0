@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.felipe.signozodiacales.Main14Activity"
+    android:orientation="vertical"
+    android:background="@drawable/fondossignos">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Capricornio"
+        android:textSize="25dp"/>
+
+    <ImageView
+        android:id="@+id/imageView12"
+        android:layout_width="169dp"
+        android:layout_height="159dp"
+        app:srcCompat="@drawable/capricornio" />
+
+    <ScrollView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Elemento: Tierra\n
+Cualidad: Cardinal\n
+Color: Marrón, Gris, Negro\n
+Día: Sábado\n
+Regente: Saturno\n
+Mayor compatibilidad con: Tauro, Virgo\n
+Mejor pareja para Matrimonio y Asociaciones: Cáncer\n
+Números de la Suerte: 1, 4, 8, 10, 13, 17, 19, 22, 26\n
+Rango de Nacimiento: Diciembre 22 – Enero 19\n
+
+Capricornio (Diciembre 22 – Enero 19)\n" />
+</ScrollView>
+</LinearLayout>

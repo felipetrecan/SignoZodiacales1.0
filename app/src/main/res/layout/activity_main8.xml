@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.felipe.signozodiacales.Main8Activity"
+    android:orientation="vertical"
+    android:background="@drawable/fondossignos">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Cancer"
+        android:textSize="25dp"/>
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="170dp"
+        android:layout_height="157dp"
+        app:srcCompat="@drawable/cancer" />
+
+    <ScrollView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Elemento: Agua\n
+Cualidad: Cardinal\n
+Color: Blanco\n
+Día: Lunes, Jueves\n
+Regente: Luna\n
+Mayor compatibilidad con: Escorpio, Piscis\n
+Mejor pareja para Matrimonio y Asociaciones: Capricornio\n
+Números de la Suerte: 2, 7, 11, 16, 20, 25\n
+Rango de Nacimiento: Junio 21 - Julio 22\n
+
+Cáncer (Junio 21 - Julio 22)\n" />
+</ScrollView>
+</LinearLayout>

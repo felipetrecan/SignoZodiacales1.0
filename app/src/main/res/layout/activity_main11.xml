@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.felipe.signozodiacales.Main11Activity"
+    android:orientation="vertical"
+    android:background="@drawable/fondossignos">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Libra"
+        android:textSize="25dp"/>
+
+    <ImageView
+        android:id="@+id/imageView9"
+        android:layout_width="172dp"
+        android:layout_height="167dp"
+        app:srcCompat="@drawable/libra" />
+
+    <ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        android:text="
+Elemento: Aire\n
+Cualidad: Cardinal\n
+Color: Azul verde\n
+Día: viernes\n
+Regente: Venus\n
+Mayor compatibilidad con: Géminis\n
+Mejor pareja para Matrimonio y Asociaciones: Aries\n
+Números de la Suerte: 6, 15, 24, 33, 42, 51, 60\n
+Rango de Nacimiento: Septiembre 23 – Octubre 22\n
+
+Libra (Septiembre 23 – Octubre 22)\n" />
+</ScrollView>
+</LinearLayout>
